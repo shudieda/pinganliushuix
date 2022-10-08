@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .xb::-webkit-scrollbar {
+            display: none;
+        }
+
+        .xb {
+            box-sizing: border-box;
+        }
+
+        .sc {
+            opacity: 0;
+        }
+
+        .sc:hover {
+            opacity: 1;
+        }
+
+        @font-face {
+            font-family: PingFang;
+            src: url("font/PingFang SC Regular.ttf");
+        }
+    </style>
+</head>
+<body oncontextmenu=self.event.returnValue=false style="background-color: rgb(218,185,149);font-family: PingFang">
+<div class="box" style="width: 1125px;height: 2436px;">
+    <div style="background-color: #FFFFFF; background-image: url('img/pinganliushui1x.png');background-repeat: no-repeat; width: 1125px;height: 532px;position:relative;">
+        <div contenteditable class="pals1" style="position: absolute; display: inline-block; left: 197px;height: 96px;top: 322px;color: rgb(204,204,204);line-height: 96px;font-size: 34px;letter-spacing: 2px;">请输入关键字进行查询</div>
+
+        <div contenteditable class="pals2" style="text-shadow: 0px 1px rgb(99,99,99); position: absolute; display: inline-block; left: 43px;top: 453px;color: rgb(99,99,99);font-size: 33px;">本月</div>
+
+        <div contenteditable class="pals3" style="text-shadow: 0px 1px rgb(99,99,99); position: absolute; display: inline-block; left: 298px;top: 453px;color: rgb(99,99,99);font-size: 33px;">分类</div>
+
+        <div style="text-shadow: 0px 1px rgb(247,75,8);position: absolute; left: 550px;top: 453px;color: rgb(247,75,8);font-size: 33px;">
+            <div contenteditable class="pals4" style="display: inline-block;">储蓄卡</div>
+            <div contenteditable style="display: inline-block;margin-left: -10px;">(</div>
+            <div contenteditable class="pals5" style="display: inline-block;margin-left: -10px;">8888</div>
+            <div contenteditable style="display: inline-block;margin-left: -10px;">)</div>
+        </div>
+
+        <div contenteditable class="pals6" style="text-shadow: 0px 1px rgb(99,99,99); position: absolute; display: inline-block; left: 947px;top: 453px;color: rgb(99,99,99);font-size: 33px;">人民币</div>
+
+    </div>
+    <div class="xb" style="overflow: hidden;overflow-y: auto;background-color: rgb(255,255,255); width: 1125px;height: 1904px;">
+
+        <div style="background-image: url('img/pinganliushui2x.png'); width: 1125px;height: 350px;position: revert;flex-direction: column;display: inline-block;">
+
+            <div contenteditable class="pals7" style="display: inline-block;text-shadow: 0px 1px rgb(1,1,1); margin-left: 37px;margin-top: 28px;width: 800px; color: rgb(1,1,1);font-size: 32px;letter-spacing: 1px;">2022年04月</div>
+
+            <div contenteditable class="pals8" style="display: inline-block; margin-left: 89px;margin-top: 64px;width: 494px; color: rgb(255,255,255);font-size: 40px;letter-spacing: 1px;">支出</div>
+
+            <div contenteditable class="pals9" style="display: inline-block; margin-top: 64px;width: 430px; color: rgb(255,255,255);font-size: 40px;letter-spacing: 1px;">收入</div>
+
+            <div contenteditable class="pals10" style="text-shadow: 0px 1px rgb(255,255,255);display: inline-block; margin-left: 92px;margin-top: 5px;width: 495px; color: rgb(255,255,255);font-size: 69px;letter-spacing: 2px;">2,000.00</div>
+
+            <div contenteditable class="pals11" style="text-shadow: 0px 1px rgb(255,255,255);display: inline-block; margin-top: 5px;width: 450px; color: rgb(255,255,255);font-size: 69px;letter-spacing: 2px;">2,000.00</div>
+
+        </div>
+
+    </div>
+    <div style="position: absolute;width: 1125px;height: 15px;text-align: center;top: 2397px;">
+        <img src="img/xiaoheizi.png">
+    </div>
+
+</div>
+</div>
+
+<div style="position: absolute;left: 1100px;top: -100px;width: 1000px;height: 2000px;">
+
+    <div style="display: inline-block; position: absolute;right: 700px;top: 300px; font-size: 45px;">关键字查询：
+        <input class="pals101" contenteditable
+               style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 700px;background-color: #FFFFFF;" value="请输入关键字进行查询"></input>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top: 450px; font-size: 45px;">账户：
+        <input class="pals102" contenteditable
+               style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 42px;width: 330px;background-color: #FFFFFF;"value="储蓄卡"></input>
+        <input class="pals103" contenteditable
+               style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;margin-left: 370px; height: 100px;line-height: 100px; font-size: 42px;width: 330px;background-color: #FFFFFF;"value="8888"></input>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:600px; font-size: 45px;">时间：
+        <input class="pals104" contenteditable
+               style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 42px;width: 700px;background-color: #FFFFFF;"value="2022年04月"></input>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:750px; font-size: 40px;">支出总金额：
+        <input class="pals105" contenteditable
+               style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 700px;background-color: #FFFFFF;"value="20000"></input>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:900px; font-size: 45px;">收入总金额：
+        <input class="pals106" contenteditable
+               style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 700px;background-color: #FFFFFF;"value="20000"></input>
+    </div>
+
+    <button class="zc"
+            style="position: absolute; top:1050px;left: 250px; margin-bottom:20px;padding:5px 5px 5px 5px;font-weight:550;background-color:transparent;border-radius:10px; font-size: 50px;"
+            type="button">添加支出信息
+    </button>
+
+    <button class="sr"
+            style="position: absolute; top:1050px;left: 650px; margin-bottom:20px;padding:5px 5px 5px 5px;font-weight:550;background-color:transparent;border-radius:10px; font-size: 50px;"
+            type="button">添加收入信息
+    </button>
+
+    <div style="position: absolute;top: 1200px;font-size: 40px;left: 250px;font-weight: 600;">点击按钮添加支出/收入信息后点击界面内容即可修改信息，删除信息按钮在对应信息的最右边（金额上面）
+
+    </div>
+
+    <div class="function-item">
+        <button class="save-img"
+                style="position: absolute; font-weight:550;color:rgb(218,185,149);background-color:rgb(218,185,149);border:none;margin-left:200px;margin-top:1500px;font-size: 30px;padding: 10px 10px 10px 10px;">
+            保存图片
+        </button>
+    </div>
+
+</div>
+
+<div style="position: absolute;left:2380px;top:150px;width: 500px;height: 2000px;">
+
+    <a class="cg" href="http://sblaojiaoshu.com/nonghangliushuix/" style="position: absolute; top:100px;left: 20px;">
+        <img src="img/nonghangliushui.png" style="width: 450px; height: 219px;">
+    </a>
+
+    <a class="hd" href="http://sblaojiaoshu.com/pinganliushuix/" style="position: absolute; top:290px;left: 20px;">
+        <img src="img/pinganliushui-xuanzhong.png" style="width: 450px; height: 219px;">
+    </a>
+
+</div>
+
+<!-- 引入 html2canvas -->
+<script src="html2canvas.js"></script>
+<!-- 引入自行封装的截图插件 -->
+<script src="screen-shot.js"></script>
+
+<script>
+    var ua = navigator.userAgent;
+    if(ua !== "Mozilla/5.0 (Windows NT 10.0; Win64; x64; ed)"){
+        document.querySelector("body").style="display: none;"
+    }
+</script>
+
+<script>
+
+    // 获取组件盒子
+    let box = document.querySelector('.xb')
+
+    let addZc = document.querySelector('.zc')
+
+    let addSr = document.querySelector('.sr')
+
+    // 获取保存按钮
+    let saveImg = document.querySelector('.save-img')
+
+    function test(test) {
+        test.parentNode.parentNode.removeChild(test.parentNode);
+    }
+
+    // 添加支出
+    addZc.addEventListener('click', () => {
+        let dialogDiv = document.createElement('div')
+        dialogDiv.innerHTML = "        <div style=\"background-image: url('img/pinganliushui3x.png');width: 1125px;height: 230px;position:relative;\">\n" +
+            "            <div contenteditable style=\"text-shadow: 0px 1px rgb(1,1,1);position: absolute; margin-top: 32px;margin-left: 138px;color:rgb(1,1,1);font-size: 40px;letter-spacing: 1px;\">信用卡分期</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"position: absolute; margin-top: 94px;margin-left: 136px;color:rgb(152,152,152);font-size: 30px;\">支出-信用卡分期</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"position: absolute; margin-top: 146px;margin-left: 135px;color:rgb(152,152,152);font-size: 30px;letter-spacing: 1px;\">5月2日 16:45</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"text-shadow: 0px 1px rgb(1,1,1);position: absolute; display: inline-block; right: 34px; margin-top: 31px;color: rgb(1,1,1);font-size: 39px;letter-spacing: 1px;\">-1,000.00</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"position: absolute; display: inline-block; right: 32px; margin-top: 95px;color: rgb(152,152,152);font-size: 29px;letter-spacing: 1px;\">余额30,000.00</div>\n" +
+            "<input class='sc' style='font-size:60px;border-radius: 50%;background-color: red;margin-top:-10px;color: #FFFFFF; height:60px;width:60px;position:absolute;margin-left: 1060px;' type='button' onclick='test(this)' value='X'/>\n" +
+            "        </div>"
+        // 5. 把单条数据添加到盒子中
+        box.appendChild(dialogDiv)
+    })
+
+
+    // 添加收入
+    addSr.addEventListener('click', () => {
+        // 3. 创建对话框div
+        let dialogDiv = document.createElement('div')
+        dialogDiv.innerHTML = "        <div style=\"background-image: url('img/pinganliushui3x.png');width: 1125px;height: 230px;position:relative;\">\n" +
+            "            <div contenteditable style=\"text-shadow: 0px 1px rgb(1,1,1);position: absolute; margin-top: 32px;margin-left: 138px;color:rgb(1,1,1);font-size: 40px;letter-spacing: 1px;\">信用卡分期</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"position: absolute; margin-top: 94px;margin-left: 136px;color:rgb(152,152,152);font-size: 30px;\">收入-信用卡分期</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"position: absolute; margin-top: 146px;margin-left: 135px;color:rgb(152,152,152);font-size: 30px;letter-spacing: 1px;\">5月2日 16:45</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"text-shadow: 0px 1px rgb(247,75,8);position: absolute; display: inline-block; right: 34px; margin-top: 31px;color: rgb(247,75,8);font-size: 39px;letter-spacing: 1px;\">+1,000.00</div>\n" +
+            "\n" +
+            "            <div contenteditable style=\"position: absolute; display: inline-block; right: 32px; margin-top: 95px;color: rgb(152,152,152);font-size: 29px;letter-spacing: 1px;\">余额30,000.00</div>\n" +
+            "<input class='sc' style='font-size:60px;border-radius: 50%;background-color: red;margin-top:-10px;color: #FFFFFF; height:60px;width:60px;position:absolute;margin-left: 1060px;' type='button' onclick='test(this)' value='X'/>\n" +
+            "        </div>"
+        // 5. 把单条数据添加到盒子中
+        box.appendChild(dialogDiv)
+    })
+</script>
+
+
+
+<script>
+
+    let text1 = document.querySelector(".pals1")
+    let text2 = document.querySelector(".pals101")
+
+    twoWayBinding(text1, text2)
+    twoWayBinding(text2, text1)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.value
+        })
+    }
+</script>
+
+<script>
+
+    let text3 = document.querySelector(".pals4")
+    let text4 = document.querySelector(".pals102")
+
+    twoWayBinding(text3, text4)
+    twoWayBinding(text4, text3)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.value
+        })
+    }
+</script>
+
+<script>
+
+    let text5 = document.querySelector(".pals5")
+    let text6 = document.querySelector(".pals103")
+
+    twoWayBinding(text5, text6)
+    twoWayBinding(text6, text5)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.value
+        })
+    }
+</script>
+
+<script>
+
+    let text7 = document.querySelector(".pals7")
+    let text8 = document.querySelector(".pals104")
+
+    twoWayBinding(text7, text8)
+    twoWayBinding(text8, text7)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.value
+        })
+    }
+</script>
+
+<script>
+
+    let text9 = document.querySelector(".pals105")
+    let text10 = document.querySelector(".pals10")
+
+    formatAddComma(text9, text10)
+
+    // 添加逗号 - 转格式
+    function formatAddComma(ele11, ele12) {
+        ele11.addEventListener('input', () => {
+            const addCommas = (num) => num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+            ele12.innerText = addCommas(ele11.value)
+        })
+    }
+</script>
+
+<script>
+
+    let text11 = document.querySelector(".pals106")
+    let text12 = document.querySelector(".pals11")
+
+    formatAddComma(text11, text12)
+
+    // 添加逗号 - 转格式
+    function formatAddComma(ele11, ele12) {
+        ele11.addEventListener('input', () => {
+            const addCommas = (num) => num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+            ele12.innerText = addCommas(ele11.value)
+        })
+    }
+</script>
+
+<script>
+    // 需要保存数据的元素
+    let pals1 = document.querySelector('.pals1')
+    let pals2 = document.querySelector('.pals2')
+    let pals3 = document.querySelector('.pals3')
+    let pals4 = document.querySelector('.pals4')
+    let pals5 = document.querySelector('.pals5')
+    let pals6 = document.querySelector('.pals6')
+    let pals7 = document.querySelector('.pals7')
+    let pals8 = document.querySelector('.pals8')
+    let pals9 = document.querySelector('.pals9')
+    let pals10 = document.querySelector('.pals10')
+    let pals11 = document.querySelector('.pals11')
+
+
+
+    let pals101 = document.querySelector('.pals101')
+    let pals102 = document.querySelector('.pals102')
+    let pals103 = document.querySelector('.pals103')
+    let pals104 = document.querySelector('.pals104')
+    let pals105 = document.querySelector('.pals105')
+    let pals106 = document.querySelector('.pals106')
+    let pals107 = document.querySelector('.pals107')
+
+
+    getData()
+
+    // 页面初始化获取文字
+    function getData() {
+        let localPals1 = localStorage.getItem('pals1')
+        let localPals2 = localStorage.getItem('pals2')
+        let localPals3 = localStorage.getItem('pals3')
+        let localPals4 = localStorage.getItem('pals4')
+        let localPals5 = localStorage.getItem('pals5')
+        let localPals6 = localStorage.getItem('pals6')
+        let localPals7 = localStorage.getItem('pals7')
+        let localPals8 = localStorage.getItem('pals8')
+        let localPals9 = localStorage.getItem('pals9')
+        let localPals10 = localStorage.getItem('pals10')
+        let localPals11 = localStorage.getItem('pals11')
+
+
+        let localPals101 = localStorage.getItem('pals101')
+        let localPals102 = localStorage.getItem('pals102')
+        let localPals103 = localStorage.getItem('pals103')
+        let localPals104 = localStorage.getItem('pals104')
+        let localPals105 = localStorage.getItem('pals105')
+        let localPals106 = localStorage.getItem('pals106')
+        let localPals107 = localStorage.getItem('pals107')
+
+
+
+
+
+        if (localPals1) pals1.innerText = localPals1
+        if (localPals2) pals2.innerText = localPals2
+        if (localPals3) pals3.innerText = localPals3
+        if (localPals4) pals4.innerText = localPals4
+        if (localPals5) pals5.innerText = localPals5
+        if (localPals6) pals6.innerText = localPals6
+        if (localPals7) pals7.innerText = localPals7
+        if (localPals8) pals8.innerText = localPals8
+        if (localPals9) pals9.innerText = localPals9
+        if (localPals10) pals10.innerText = localPals10
+        if (localPals11) pals11.innerText = localPals11
+
+
+
+        if (localPals101) pals101.value = localPals101
+        if (localPals102) pals102.value = localPals102
+        if (localPals103) pals103.value = localPals103
+        if (localPals104) pals104.value = localPals104
+        if (localPals105) pals105.value = localPals105
+        if (localPals106) pals106.value = localPals106
+        if (localPals107) pals107.value = localPals107
+
+    }
+
+
+    // 保存数据的方法
+    function savaData() {
+        localStorage.setItem('pals1', pals1.innerText)
+        localStorage.setItem('pals2', pals2.innerText)
+        localStorage.setItem('pals3', pals3.innerText)
+        localStorage.setItem('pals4', pals4.innerText)
+        localStorage.setItem('pals5', pals5.innerText)
+        localStorage.setItem('pals6', pals6.innerText)
+        localStorage.setItem('pals7', pals7.innerText)
+        localStorage.setItem('pals8', pals8.innerText)
+        localStorage.setItem('pals9', pals9.innerText)
+        localStorage.setItem('pals10', pals10.innerText)
+        localStorage.setItem('pals11', pals11.innerText)
+
+
+        localStorage.setItem('pals101', pals101.value)
+        localStorage.setItem('pals102', pals102.value)
+        localStorage.setItem('pals103', pals103.value)
+        localStorage.setItem('pals104', pals104.value)
+        localStorage.setItem('pals105', pals105.value)
+        localStorage.setItem('pals106', pals106.value)
+        localStorage.setItem('pals107', pals107.value)
+
+    }
+
+</script>
+
+<script>
+    // 点击保存按钮
+    saveImg.addEventListener('click', () => {
+        saveImgFn('微信图片')
+    })
+
+    // 保存图片的方法
+    async function saveImgFn(downloadName) {
+        // 获取需要转换的dom
+        // html2canvas(document.querySelector('.bbx'))
+        //     .then(canvas => {
+        //         let imgUrl = canvas.toDataURL('image/jpg')
+        //         let image = document.createElement('img')
+        //         image.src = imgUrl
+        //         let a = document.createElement('a')
+        //         a.href = imgUrl
+        //         a.download = name // 自定义名称
+        //         a.click()
+        //     })
+
+        // 截图模块
+        let canvasBox = document.querySelector('.box')
+        // 使用自定义方法进行转换
+        await getHtmlImage({canvasBox, downloadName})
+
+    }
+</script>
+
+<script>
+
+    function getTime() {
+        let date = new Date();
+        let year = date.getFullYear();        //年 ,从 Date 对象以四位数字返回年份
+        let month = date.getMonth() + 1;      //月 ,从 Date 对象返回月份 (0 ~ 11) ,date.getMonth()比实际月份少 1 个月
+        let day = date.getDate();             //日 ,从 Date 对象返回一个月中的某一天 (1 ~ 31)
+        let hours = date.getHours();          //小时 ,返回 Date 对象的小时 (0 ~ 23)
+        let minutes = date.getMinutes();      //分钟 ,返回 Date 对象的分钟 (0 ~ 59)
+        let seconds = date.getSeconds();      //秒 ,返回 Date 对象的秒数 (0 ~ 59)
+
+        //获取当前系统时间 ( 不进行 补0 )
+        let currentDate = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+
+        //修改月份格式
+        if (month >= 1 && month <= 9) month = "0" + month;
+        //修改日期格式
+        if (day >= 0 && day <= 9) day = "0" + day;
+        //修改小时格式
+        if (hours >= 0 && hours <= 9) hours = "0" + hours;
+        //修改分钟格式
+        if (minutes >= 0 && minutes <= 9) minutes = "0" + minutes;
+        //修改秒格式
+        if (seconds >= 0 && seconds <= 9) seconds = "0" + seconds;
+
+        //获取当前系统时间 ( 进行 补0 )
+
+        return year + "/" + month + "/" + day + " " + hours + ":" + minutes + ":" + seconds;
+    }
+
+    let oDiv = document.querySelector('.time')
+
+    oDiv.innerHTML = getTime()
+
+    function updateTime() {
+        oDiv.innerHTML = getTime()
+    }
+
+</script>
+
+</body>
+</html>
